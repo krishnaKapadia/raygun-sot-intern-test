@@ -18,3 +18,35 @@ body {
   font-size: calc(10px + 2vmin);
   color: #282c34;
 }
+
+.OffLight {
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+}
+
+.RedLight {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+}
+
+.OrangeLight {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+}
+
+.GreenLight {
+  background-color:green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+}
