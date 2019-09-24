@@ -10,12 +10,12 @@ class App extends React.Component {
   render() {
     return(
       <div className="app">
-      <header className="app-header">
-        
-        <p>Build a traffic light!</p>
+        <header className="app-header">
+          
+          <p>Build a traffic light!</p>
 
-      </header>
-    </div>
+        </header>
+      </div>
     );
 
   }
