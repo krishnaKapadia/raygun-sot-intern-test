@@ -1,0 +1,28 @@
+.lights {}
+
+.light {
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+    margin-bottom: 2vw;
+}
+
+.light:last-child {
+    margin-bottom: 0;
+}
+
+.light--red {
+    background-color: red;
+}
+
+.light--yellow {
+    background-color: yellow;
+}
+
+.light--green {
+    background-color: green;
+}
+
+.light--inactive {
+    background-color: grey;
+}
