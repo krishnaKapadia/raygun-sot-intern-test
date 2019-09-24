@@ -1,5 +1,6 @@
 import React from 'react';
 import './app.css';
+import Lights from './Lights';
 
 class App extends React.Component {
 
@@ -11,7 +12,8 @@ class App extends React.Component {
     return(
       <div className="app">
         <header className="app-header">
-          
+          <Lights/>
+
           <p>Build a traffic light!</p>
 
         </header>

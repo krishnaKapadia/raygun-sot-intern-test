@@ -18,3 +18,27 @@ body {
   font-size: calc(10px + 2vmin);
   color: #282c34;
 }
+
+.lights-container {
+  background-color: black;
+  padding: 3vw;
+}
+
+.red, .orange, .green {
+  margin-top: 3vh;
+  border-radius: 50%;
+  height: 15vh;
+  width: 15vh;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.green {
+  background-color: green;
+}
