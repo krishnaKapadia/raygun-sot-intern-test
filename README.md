@@ -1,10 +1,20 @@
-# raygun-sot-intern-test
+# The Raygun Traffic Light Company
 
-## Objective:
+We are a manufacturer of the worlds best traffic lights, but we have a few problems with our software and we need your help!
 
-Build a traffic light that cycles through the colors when you press a button.
-You have full creative freedom over what it looks like, it can be as simple or as complicated as you like.
+## Exercise 1
+Our traffic light seems to always start on Yellow instead of Red. 
 
-## Purpose:
+Task:
+- Find out why this is happening and fix it so that it starts on Red.
 
-We want to know how you approach problems and create solutions given a set amount of time.
+
+## Exercise 2
+Our traffic light is cycling colors in the wrong order.
+
+Task:
+- Update the traffic light so that it cycles colors in the right order: Red -> Green -> Yellow -> Red
+
+
+## Exercise 3
+We want to add a feature to our traffic light. We want you to add a new button that, when clicked, will turn all of the lights white.
