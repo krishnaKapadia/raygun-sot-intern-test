@@ -19,4 +19,4 @@ Update the traffic light so that it cycles colors in the right order: Red -> Gre
 ## Exercise 3
 We want to add a feature to our traffic light.
 
-**Task**: We want you to add a new button that, when clicked, will turn all of the lights white.
+**Task**: We want you to add a new button that, when clicked, will turn all of the lights white to signify that something went wrong.
