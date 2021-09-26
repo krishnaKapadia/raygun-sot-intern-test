@@ -1,23 +1,28 @@
-import React from 'react';
-import './app.css';
+/** @format */
+
+import React from "react";
+
+import { TrafficLight } from "./components/trafficLight";
+
+import "./app.css";
 
 class App extends React.Component {
-
   constructor(props) {
     super(props);
   }
 
   render() {
-    return(
+    return (
       <div className="app">
         <header className="app-header">
-          
-          <p>Build a traffic light!</p>
-
+          <p>Raygun Traffic Light Company</p>
         </header>
+
+        <section className="app-body">
+          <TrafficLight />
+        </section>
       </div>
     );
-
   }
 }
 
