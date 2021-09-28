@@ -15,16 +15,10 @@ export class TrafficLight extends React.Component {
   }
 
   cycleLightV1 = () => {
-    let targetIndex;
-    let currentIndex = this.state.activeLight;
+    // let targetIndex;
+    // let currentIndex = this.state.activeLight;
 
-    if (currentIndex == 2) {
-      targetIndex = 0;
-    } else {
-			targetIndex = currentIndex + 1;
-		}
-
-    this.setState({ activeLight: targetIndex });
+    // this.setState({ activeLight: targetIndex });
   }
 
   render() {
