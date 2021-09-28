@@ -9,23 +9,16 @@ export class TrafficLight extends React.Component {
     super(props);
 
     this.state = {
-      activeLight: 1,
-			showErrorLight: false
+      activeLight: 1
     };
 
   }
 
   cycleLightV1 = () => {
-    let targetIndex;
-    let currentIndex = this.state.activeLight;
+    // let targetIndex;
+    // let currentIndex = this.state.activeLight;
 
-    if (currentIndex == 2) {
-      targetIndex = 0;
-    } else {
-			targetIndex = currentIndex + 1;
-		}
-
-    this.setState({ activeLight: targetIndex });
+    // this.setState({ activeLight: targetIndex });
   }
 
   render() {
@@ -42,7 +35,6 @@ export class TrafficLight extends React.Component {
         </div>
 
         <button onClick={this.cycleLightV1}>Cycle traffic light</button>
-				{/* <button>Show error lights</button> */}
       </>
     );
   }

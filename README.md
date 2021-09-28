@@ -10,10 +10,11 @@ Find out why this is happening and fix it so that it starts on Red.
 
 
 ## Exercise 2
-Our traffic light is cycling colors in the wrong order.
+Our traffic light is fresh out the box.
 
 **Task**:
-Update the traffic light so that it cycles colors in the right order: Red -> Green -> Yellow -> Red
+Complete the cycleLightV1 function so that the traffic cycles colors in the following order:
+Red -> Green -> Yellow -> Red
 
 
 ## Exercise 3

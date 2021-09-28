@@ -15,10 +15,6 @@ export class Bulb extends React.Component {
     if (color == "green") {
       return "green-light";
     }
-
-    if (color == "white") {
-      return "white-light";
-    }
   }
 
   render() {
