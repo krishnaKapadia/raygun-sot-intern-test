@@ -9,8 +9,7 @@ export class TrafficLight extends React.Component {
     super(props);
 
     this.state = {
-      activeLight: 1,
-			showErrorLight: false
+      activeLight: 1
     };
 
   }
@@ -42,7 +41,6 @@ export class TrafficLight extends React.Component {
         </div>
 
         <button onClick={this.cycleLightV1}>Cycle traffic light</button>
-				{/* <button>Show error lights</button> */}
       </>
     );
   }
